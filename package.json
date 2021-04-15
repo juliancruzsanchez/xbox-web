@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "app-xbox-live": "^1.2.3"
+    "axios": "^0.21.1",
+    "cookie": "^0.4.1",
+    "query-string": "^7.0.0",
+    "vue": "^2.6.12"
   },
   "devDependencies": {},
   "scripts": {

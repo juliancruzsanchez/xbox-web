@@ -1,0 +1,65 @@
+{
+  "_from": "app-xbox-live",
+  "_id": "app-xbox-live@1.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-OvV1xbqRn+vmJUHxEu9B8gyYuSc7Uoqt5u//GwgxCVGymRfwXpw8wycgyhuc7daH9sQT5+c0mhSDNeDQwMw3Ng==",
+  "_location": "/app-xbox-live",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "app-xbox-live",
+    "name": "app-xbox-live",
+    "escapedName": "app-xbox-live",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/app-xbox-live/-/app-xbox-live-1.2.5.tgz",
+  "_shasum": "fcdc5a38b9beb4546d88b128f5a50b3dc43a99d7",
+  "_spec": "app-xbox-live",
+  "_where": "C:\\Users\\kickb\\Desktop\\XBox",
+  "author": {
+    "name": "AtomScript"
+  },
+  "bugs": {
+    "url": "https://github.com/AtomScript/app-xbox-live/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie": "^0.4.1",
+    "query-string": "^7.0.0"
+  },
+  "deprecated": false,
+  "description": "Powerful xbox live library",
+  "homepage": "https://github.com/AtomScript/app-xbox-live#readme",
+  "keywords": [
+    "xbox.js",
+    "app-xbox-live",
+    "xbox-live.js",
+    "xbox",
+    "live",
+    "xbox-live",
+    "xbox-live-api",
+    "xbox-live-system",
+    "gamertag",
+    "xbox-api",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "app-xbox-live",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomScript/app-xbox-live.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.5"
+}
