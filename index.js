@@ -1,4 +1,9 @@
 const xls = require("./api");
+const options = {
+  username: "",
+  password: ""
+}
+
 let token,xl;
 Array.prototype.filterKeys = function (keys = []) {
   let retArray = []
@@ -11,7 +16,7 @@ Array.prototype.filterKeys = function (keys = []) {
   })
  return retArray
 }
-xls.Token("kickbutt.js@gmail.com", "00677949Aa!").then(x => {token = x; xl = new xls.Account(`XBL3.0 x=${token[1]};${token[0]}`);goTime()})
+xls.Token(options.username, options.password).then(x => {token = x; xl = new xls.Account(`XBL3.0 x=${token[1]};${token[0]}`);goTime()})
 
 async function getAllMessages(xuid) {
 return await xl.chat.message.get(xuid, 100)
